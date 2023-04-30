@@ -313,8 +313,7 @@ li:hover {
 
       footer {
          width: 100%;
-         position: absolute;
-         bottom: 0;
+         position: static;
       }
 
       .objednaci_section_left {
