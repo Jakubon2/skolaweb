@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- pridani css stylu -->
+    <script src="script.js"></script> <!-- pridani javascriptu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@470&display=swap" rel="stylesheet"> <!-- google fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> <!-- pridani bootstrap ikon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tesla Model Y</title>
+</head>
+<body>
+    
+<div class="tesla_img"> <!-- hlavni kontejner pro obrazek, vyska pres celou obrazovku -->
+    
+    <nav class="main_nav"> <!-- navigacni panel -->
+        <div> <!-- div pro logo -->
+        <a href="index.html"><img src="teslalogonav.svg" alt="tesla_logo" height="90px"></a>
+        </div>
+        <div class="central_nav"> <!-- div pro centralni nabidku -->
+            <ol>
+            <li>Model S</li>
+            <li>Model 3</li>
+            <li>Model X</li>
+            <li>Model Y</li>
+            <li>Cybertruck</li>
+            <li>Nabíjení</li>
+            </ol>
+        </div>
+        <div class="right_nav">  <!-- prava nabidka -->
+            <li>Podpora</li>
+            <li>Obchod</li>
+            <li>Účet</li>
+        </div>
+    </nav>
+    
+    <h1>Model Y</h1>
+
+    <div class="tesla_specs_container"> <!-- kontejner pro zakladni specifikace -->
+        <div class="specs_item">
+            <p class="specs_text_big">2 100+ </p>
+            litrů nákladového <br>
+             prostoru
+        </div>
+        <div class="specs_item">
+            <p class="specs_text_big">533  km</p>
+            Dojezd (WLTP)
+        </div> 
+        <div class="specs_item">
+            <p class="specs_text_big">AWD</p> 
+            Dual Motor
+        </div>
+        <div class="specs_item" id="objednaci_tlacitko">
+            <a href="objednavacistranka.html"><button class="objednaci_button" >Objednat</button></a> <!-- button na objednavaci stranku -->
+         </div>
+    </div>
+
+    <div class="specs_item_copy_container"> <!-- pomocnej kontejner k tomu -->
+        <div class="specs_item_copy"> <!-- specialni kopie buttonu, pomaha u responyivitzz, protoye jsem nevedel -->
+        <a href="objednavacistranka.html"><button class="objednaci_button_copy">Objednat</button></a> <!-- button na objednavaci stranku -->
+        </div>
+    </div>
+    
+
+    <div class="icon_container"> <!-- div pro praci se scrolldown ikonou -->
+       <a href="#tesla_info"><i class="bi bi-chevron-down" id="icon"></i></a> <!-- bootstrap ikona pro scrolldown, odkaz na scroll -->
+    </div>
+  
+</div>
+
+<div class="tesla_info" id="tesla_info"> <!-- hlavni kontejner, druha strana, vyska pres celou -->
+
+
+    <div class="left-section"></div> <!-- kontejner pro obrazek, 50 procet sirka -->
+
+    <div class="right-section"> <!-- kontejner pro pravou stranu strankz, 50  procent sirka -->
+        <h1 class="zero-margin">Specifikace <span class="orange"> vozu Model Y</span></h1>
+
+        <ol class="speclist"> <!-- seznam specifikaci -->
+            <li><span class="speclist_item">Baterie</span><br>Standard Range</li>
+            <li><span class="speclist_item">Akcelerace</span><br>Z 0 na 100 km/h za 6,9 s.</li>
+            <li><span class="speclist_item">Dojezd</span><br>455 km (19" kola)
+                430 km (20" kola)</li>
+            <li><span class="speclist_item">Pohon</span><br>Pohon zadních kol</li>
+        </ol>
+
+        <ol class="speclist"> <!-- seznam specifikaci -->
+            <li><span class="speclist_item">Sedadla</span><br>5 dospělých osob</li>
+            <li><span class="speclist_item">Kola</span><br>19" nebo 20"</li>
+            <li><span class="speclist_item">Hmotnost</span><br>1 909 kg</li>
+            <li><span class="speclist_item">Nabíjení</span><br>Max. 170 kW; platba za každé použití</li>
+        </ol>
+
+        <h1 class="zero-margin"> Již od 1 159 990 Kč</h1> 
+        <footer> <!-- odkaz na autora -->
+            Tuto stránku vytvořil <a href="https://elektrickevozy.cz/autor/jakubondracek/1" class="orange">Jakub Ondráček</a>
+        </footer>
+    </div>
+
+    
+</div>
+
+
+</body>
+</html>
