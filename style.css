@@ -6,7 +6,7 @@
 }
 
  .tesla_img { /* hlavni kontejner, vyska pres celou stranku */
-    background-image: url('model_y.jpg');
+    background-image: url('img/model_y.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -161,7 +161,7 @@ a.orange {
 
 .left-section {
    width: 50%;
-   background-image: url('modely.jpg');
+   background-image: url('img/modely.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -228,7 +228,7 @@ li:hover {
 
 
 .objednaci_section_left {
-   background-image: url('modeli.jpg');
+   background-image: url('img/modeli.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    height: 90%;
@@ -348,3 +348,8 @@ li:hover {
 
 }
 
+.text-container {
+   text-align: center;
+   margin: auto;
+   width: 60vw;
+}
